@@ -1,0 +1,174 @@
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  font-family: Harpagan;
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+.container {
+  height: 200%; /* Allows for smooth sliding transition */
+}
+
+/* Full-Screen Landing Section */
+#landing {
+  position: relative;
+  height: 100vh;
+  background-image: url("Images/PortfolioMainBackground.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.arrow {
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+.arrow-text {
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding: 10px 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+}
+
+.arrow-text:hover {
+  background-color: rgba(255, 255, 255, 0.555);
+}
+
+.scroll-link {
+  text-decoration: none;
+}
+
+/* Portfolio Menu Section */
+#portfolio-menu {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #606161;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+p {
+  font-size: 1.25rem;
+}
+
+.artifact1-button {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: -200px;
+}
+
+.artifact1-button {
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+.artifact1-button img {
+  width: 280px; 
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.artifact1-button:hover {
+  transform: scale(1.05);
+}
+
+
+
+.artifact2-button {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 200px;
+}
+
+.artifact2-button {
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+.artifact2-button img {
+  width: 280px; 
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.artifact2-button:hover {
+  transform: scale(1.05);
+}
+
+
+
+.artifact3-button {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: -200px;
+}
+
+.artifact3-button {
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+.artifact3-button img {
+  width: 280px; 
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.artifact3-button:hover {
+  transform: scale(1.05);
+}
+
+
+
+.artifact4-button {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 200px;
+}
+
+.artifact4-button {
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+.artifact4-button img {
+  width: 280px; 
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.artifact4-button:hover {
+  transform: scale(1.05);
+}
+
+
