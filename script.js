@@ -1,5 +1,8 @@
-document.querySelector('.scroll-link').addEventListener('click', function (e) {
-    e.preventDefault();
-    document.getElementById('portfolio-menu').scrollIntoView({ behavior: 'smooth' });
-  });
+document.querySelector('.container').addEventListener('click', function() {
+  this.classList.add('split-active');
   
+  setTimeout(() => {
+      document.getElementById('portfolio-menu').classList.add('visible');
+      document.querySelector('.container').style.display = 'none';
+  }, 800);
+});

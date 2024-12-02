@@ -1,3 +1,51 @@
+/* Keep your existing CSS and add/modify these styles */
+.container {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  z-index: 1000;
+  cursor: url('Images/KeyCurs.png') 16 16, pointer, auto;
+}
+
+.split {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  transition: all 0.8s ease;
+  overflow: hidden;
+}
+
+.left {
+  left: 0;
+  background: url("Images/PortBackLeft.png");
+  background-size: cover;
+  background-position: left;
+}
+
+.right {
+  right: 0;
+  background: url("Images/PortBackRight.png");
+  background-size: cover;
+  background-position: right;
+}
+
+.split-active .left {
+  transform: translateX(-100%);
+}
+
+.split-active .right {
+  transform: translateX(100%);
+}
+
+#portfolio-menu {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+#portfolio-menu.visible {
+  opacity: 1;
+}
+
 /* General Styles */
 * {
   margin: 0;
@@ -10,20 +58,6 @@ body, html {
   font-family: Harpagan;
   font-size: 16px;
   scroll-behavior: smooth;
-}
-
-.container {
-  height: 200%; /* Allows for smooth sliding transition */
-}
-
-/* Full-Screen Landing Section */
-#landing {
-  position: relative;
-  height: 100vh;
-  background-image: url("Images/PortfolioMainBackground.webp");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
 }
 
 .arrow {
@@ -170,5 +204,3 @@ p {
 .artifact4-button:hover {
   transform: scale(1.05);
 }
-
-
