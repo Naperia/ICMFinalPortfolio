@@ -4,7 +4,6 @@
   width: 100%;
   height: 100vh;
   z-index: 1000;
-  cursor: url('Images/KeyCurs.png') 16 16, pointer, auto;
 }
 
 .split {
@@ -53,34 +52,6 @@
   box-sizing: border-box;
 }
 
-body, html {
-  height: 100%;
-  font-family: Harpagan;
-  font-size: 16px;
-  scroll-behavior: smooth;
-}
-
-.arrow {
-  position: absolute;
-  bottom: 50px;
-  left: 50%;
-  transform: translateX(-50%);
-  text-align: center;
-}
-
-.arrow-text {
-  color: white;
-  font-size: 1.5rem;
-  cursor: pointer;
-  padding: 10px 20px;
-  background-color: rgba(0, 0, 0, 0.5);
-  border-radius: 5px;
-}
-
-.arrow-text:hover {
-  background-color: rgba(255, 255, 255, 0.555);
-}
-
 .scroll-link {
   text-decoration: none;
 }
@@ -109,6 +80,46 @@ p {
   flex-wrap: wrap;
   gap: 20px;
   margin-top: -200px;
+  position: relative;
+  left: -80px;
+}
+
+.description-box-art1 {
+  position: absolute;
+  background: #ffc8e6a5;
+  color: black;
+  padding: 15px;
+  border-radius: 8px;
+  width: 300px;
+  left: 50%;
+  top: 100%;
+  transform: translateX(-50%);
+  margin-top: 20px;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s;
+  z-index: 1000;
+  text-align: center;  /* Centers all text content */
+  display: flex;
+  flex-direction: column;
+  align-items: center;  /* Centers any flex items */
+  justify-content: center;  /* Centers content vertically */
+}
+
+.artifact1-button:hover .description-box-art1 {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Style the text inside the box */
+.description-box h3 {
+  margin-bottom: 10px;
+  font-size: 1.2em;
+}
+
+.description-box p {
+  font-size: 0.9em;
+  line-height: 1.4;
 }
 
 .artifact1-button {
@@ -135,6 +146,46 @@ p {
   flex-wrap: wrap;
   gap: 20px;
   margin-top: 200px;
+  position: relative;
+  left: -30px;
+}
+
+.description-box-art2 {
+  position: absolute;
+  background: #ffc8e6a5;
+  color: black;
+  padding: 15px;
+  border-radius: 8px;
+  width: 300px;
+  bottom: 100%; /* Changed from left: 100% */
+  left: 50%; /* Center horizontally */
+  transform: translateX(-50%); /* Center horizontally */
+  margin-bottom: 20px; /* Space between box and button */
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s;
+  z-index: 1000;
+  text-align: center;  /* Centers all text content */
+  display: flex;
+  flex-direction: column;
+  align-items: center;  /* Centers any flex items */
+  justify-content: center;  /* Centers content vertically */
+}
+
+.artifact2-button:hover .description-box-art2 {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Style the text inside the box */
+.description-box h3 {
+  margin-bottom: 10px;
+  font-size: 1.2em;
+}
+
+.description-box p {
+  font-size: 0.9em;
+  line-height: 1.4;
 }
 
 .artifact2-button {
@@ -161,6 +212,46 @@ p {
   flex-wrap: wrap;
   gap: 20px;
   margin-top: -200px;
+  position: relative;
+  left: 30px;
+}
+
+.description-box-art3 {
+  position: absolute;
+  background: #ffc8e6a5;
+  color: black;
+  padding: 15px;
+  border-radius: 8px;
+  width: 300px;
+  left: 50%;
+  top: 100%;
+  transform: translateX(-50%);
+  margin-top: 20px;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s;
+  z-index: 1000;
+  text-align: center;  /* Centers all text content */
+  display: flex;
+  flex-direction: column;
+  align-items: center;  /* Centers any flex items */
+  justify-content: center;  /* Centers content vertically */
+}
+
+.artifact3-button:hover .description-box-art3 {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Style the text inside the box */
+.description-box h3 {
+  margin-bottom: 10px;
+  font-size: 1.2em;
+}
+
+.description-box p {
+  font-size: 0.9em;
+  line-height: 1.4;
 }
 
 .artifact3-button {
@@ -187,6 +278,46 @@ p {
   flex-wrap: wrap;
   gap: 20px;
   margin-top: 200px;
+  position: relative;
+  left: 80px;
+}
+
+.description-box-art4 {
+  position: absolute;
+  background: #ffc8e6a5;
+  color: black;
+  padding: 15px;
+  border-radius: 8px;
+  width: 300px;
+  bottom: 100%; /* Changed from left: 100% */
+  left: 50%; /* Center horizontally */
+  transform: translateX(-50%); /* Center horizontally */
+  margin-bottom: 20px; /* Space between box and button */
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s;
+  z-index: 1000;
+  text-align: center;  /* Centers all text content */
+  display: flex;
+  flex-direction: column;
+  align-items: center;  /* Centers any flex items */
+  justify-content: center;  /* Centers content vertically */
+}
+
+.artifact4-button:hover .description-box-art4 {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Style the text inside the box */
+.description-box h3 {
+  margin-bottom: 10px;
+  font-size: 1.2em;
+}
+
+.description-box p {
+  font-size: 0.9em;
+  line-height: 1.4;
 }
 
 .artifact4-button {
@@ -203,4 +334,23 @@ p {
 
 .artifact4-button:hover {
   transform: scale(1.05);
+}
+
+
+
+.about-link {
+  position: absolute;
+  top: 30px;
+  right: 50px;
+}
+
+.about-link a {
+  color: white;
+  text-decoration: none;
+  font-size: 45px;
+  transition: color 0.3s ease;
+}
+
+.about-link a:hover {
+  color: #FF159F;
 }
