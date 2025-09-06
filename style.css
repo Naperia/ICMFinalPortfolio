@@ -139,7 +139,7 @@ p {
 }
 
 
-
+/*
 .artifact2-button {
   display: flex;
   justify-content: center;
@@ -157,19 +157,19 @@ p {
   padding: 15px;
   border-radius: 8px;
   width: 300px;
-  bottom: 100%; /* Changed from left: 100% */
-  left: 50%; /* Center horizontally */
-  transform: translateX(-50%); /* Center horizontally */
-  margin-bottom: 20px; /* Space between box and button */
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 20px;
   opacity: 0;
   visibility: hidden;
   transition: opacity 0.3s ease, visibility 0.3s;
   z-index: 1000;
-  text-align: center;  /* Centers all text content */
+  text-align: center;
   display: flex;
   flex-direction: column;
-  align-items: center;  /* Centers any flex items */
-  justify-content: center;  /* Centers content vertically */
+  align-items: center;
+  justify-content: center;
 }
 
 .artifact2-button:hover .description-box-art2 {
@@ -177,7 +177,7 @@ p {
   visibility: visible;
 }
 
-/* Style the text inside the box */
+
 .description-box h3 {
   margin-bottom: 10px;
   font-size: 1.2em;
@@ -231,11 +231,11 @@ p {
   visibility: hidden;
   transition: opacity 0.3s ease, visibility 0.3s;
   z-index: 1000;
-  text-align: center;  /* Centers all text content */
+  text-align: center;
   display: flex;
   flex-direction: column;
-  align-items: center;  /* Centers any flex items */
-  justify-content: center;  /* Centers content vertically */
+  align-items: center;
+  justify-content: center;
 }
 
 .artifact3-button:hover .description-box-art3 {
@@ -243,7 +243,7 @@ p {
   visibility: visible;
 }
 
-/* Style the text inside the box */
+
 .description-box h3 {
   margin-bottom: 10px;
   font-size: 1.2em;
@@ -289,19 +289,19 @@ p {
   padding: 15px;
   border-radius: 8px;
   width: 300px;
-  bottom: 100%; /* Changed from left: 100% */
-  left: 50%; /* Center horizontally */
-  transform: translateX(-50%); /* Center horizontally */
-  margin-bottom: 20px; /* Space between box and button */
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 20px;
   opacity: 0;
   visibility: hidden;
   transition: opacity 0.3s ease, visibility 0.3s;
   z-index: 1000;
-  text-align: center;  /* Centers all text content */
+  text-align: center;
   display: flex;
   flex-direction: column;
-  align-items: center;  /* Centers any flex items */
-  justify-content: center;  /* Centers content vertically */
+  align-items: center;
+  justify-content: center;
 }
 
 .artifact4-button:hover .description-box-art4 {
@@ -309,7 +309,7 @@ p {
   visibility: visible;
 }
 
-/* Style the text inside the box */
+
 .description-box h3 {
   margin-bottom: 10px;
   font-size: 1.2em;
@@ -354,3 +354,4 @@ p {
 .about-link a:hover {
   color: #FF159F;
 }
+*/
