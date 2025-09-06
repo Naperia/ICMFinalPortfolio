@@ -80,7 +80,8 @@ p {
   flex-wrap: wrap;
   gap: 20px;
   margin-top: -200px;
-  left: -200px;
+  position: relative;
+  left: -150px;
 }
 
 .description-box-art1 {
