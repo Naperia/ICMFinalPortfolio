@@ -335,7 +335,7 @@ p {
 .artifact4-button:hover {
   transform: scale(1.05);
 }
-
+*/
 
 
 .about-link {
@@ -347,11 +347,11 @@ p {
 .about-link a {
   color: white;
   text-decoration: none;
-  font-size: 45px;
+  font-size: 25px;
   transition: color 0.3s ease;
 }
 
 .about-link a:hover {
   color: #FF159F;
 }
-*/
+
